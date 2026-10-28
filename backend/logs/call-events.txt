@@ -1,0 +1,6 @@
+[28/10/2026, 20:28:12 IST] FAILURE | Customer ID: unavailable | Error: Customer could not be identified
+[28/10/2026, 20:35:18 IST] SUCCESS | Customer ID: 6ae20ec84beb19ba0943a6c6 | Customer: Anupama | Message: Call report processed and conversation saved
+[28/10/2026, 20:37:56 IST] FAILURE | Customer ID: unavailable | Error: Customer could not be identified
+[28/10/2026, 21:09:37 IST] FAILURE | Customer ID: unavailable | Error: Vapi webhook customer identification failed: the call did not contain a customer ID or phone number
+[28/10/2026, 21:16:54 IST] FAILURE | Customer ID: unavailable | Error: Vapi customer identification failed: the caller did not provide a valid Indian mobile number
+[28/10/2026, 21:17:49 IST] FAILURE | Customer ID: unavailable | Error: Vapi webhook customer identification failed: caller provided an invalid Indian mobile number
