@@ -193,66 +193,7 @@ The following sequence brings the individual features together into one sales pr
 8. A customer-confirmed product selection can be recorded against the lead.
 9. An explicitly confirmed purchase can proceed through the order workflow.
 10. Call information is processed and stored for CRM visibility.
-
----
-
-## System Architecture
-
-The architecture connects the voice agent to the RELAY backend, which coordinates customer management, sales intelligence, inventory, and recommendations. MongoDB stores the associated information, while the dashboard and order and invoice workflows provide access to the resulting business records.
-
-```text
-                    CUSTOMER
-                       |
-                       v
-                 VAPI VOICE AGENT
-                       |
-                 Tool / API Calls
-                       |
-                       v
-                 RELAY BACKEND
-                (Node + Express)
-                       |
-          +------------+------------+
-          |            |            |
-          v            v            v
-      Customer       Sales       Inventory &
-     Management   Intelligence  Recommendations
-          |            |            |
-          +------------+------------+
-                       |
-                       v
-                MONGODB DATABASE
-                       |
-              +--------+--------+
-              |                 |
-              v                 v
-         CRM DASHBOARD     ORDERS / INVOICES
-
- Vapi End-of-Call Report → Webhook → Conversation Storage
-```
-
----
-
-## Backend API Modules
-
-The backend organizes functionality into dedicated REST API modules.
-
-| API Module | Purpose |
-|---|---|
-| `/api/customers` | Customer records |
-| `/api/leads` | Sales leads |
-| `/api/products` | Product catalogue |
-| `/api/inventory` | Stock information |
-| `/api/conversations` | Conversation records |
-| `/api/followups` | Follow-up management |
-| `/api/ai` | AI-related operations |
-| `/api/vapi` | Voice-agent tools and webhooks |
-| `/api/orders` | Order management |
-| `/api/invoices` | Invoice operations |
-| `/health` | Backend health check |
-
-**Vapi tool operations include:** customer lookup, customer creation, lead creation and updates, laptop recommendations, inventory checks, laptop selection, purchase confirmation, and webhook processing.
-
+11. 
 ---
 
 ## Tech Stack
