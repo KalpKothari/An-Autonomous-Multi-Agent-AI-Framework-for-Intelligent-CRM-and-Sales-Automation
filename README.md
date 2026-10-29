@@ -1,6 +1,4 @@
-# RELAY
-
-### AI Sales Agent for Autonomous CRM & Voice-Based Sales Automation
+# AI Sales Agent for Autonomous CRM & Voice-Based Sales Automation 
 
 **RELAY** is a full-stack, AI-powered sales automation platform that combines conversational voice AI, intelligent sales workflows, and a centralized Customer Relationship Management (CRM) system.
 
