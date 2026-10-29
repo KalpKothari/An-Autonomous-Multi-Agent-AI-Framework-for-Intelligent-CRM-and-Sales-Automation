@@ -52,7 +52,7 @@ Sales teams spend valuable time on repetitive tasks instead of focusing on custo
 
 ### 1. AI Voice Sales Agent
 
-The Vapi voice agent interacts with customers through natural voice conversations and serves as the entry point for RELAY's sales workflows.
+The voice agent interacts with customers through natural voice conversations and serves as the entry point for RELAY's sales workflows.
 
 - Understands customer requirements and purchase intent.
 - Asks follow-up questions to collect missing information.
